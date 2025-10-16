@@ -1,0 +1,143 @@
+/* styled.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: #fdf5e6 url('your-background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 20px;
+    color: #3a3a3a;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 25px 40px;
+    max-width: 900px;
+    margin: auto;
+    border: 2px solid #c8b780;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(200, 183, 128, 0.7);
+}
+
+/* Заголовки книги и глав по центру */
+h1.book-title,
+.chapter-header {
+    text-align: center;
+    margin: 30px 0 15px 0;
+    font-weight: 700;
+    font-size: 2.2em;
+    border-bottom: 3px solid #b08d57;
+    padding-bottom: 6px;
+    border-radius: 5px 5px 0 0;
+}
+
+/* Разные цвета глав */
+.chapter-color-1 {
+    background-color: #e6d8b7;
+    color: #553d00;
+    border: 1px solid #aa923f;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.chapter-color-2 {
+    background-color: #d6e7d7;
+    color: #215021;
+    border: 1px solid #5a965a;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.chapter-color-3 {
+    background-color: #e7d6d6;
+    color: #762121;
+    border: 1px solid #965a5a;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.chapter-color-4 {
+    background-color: #d6d9e7;
+    color: #213d76;
+    border: 1px solid #5a6f96;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.chapter-color-5 {
+    background-color: #e7e6d6;
+    color: #767521;
+    border: 1px solid #96965a;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* Заметки */
+.note-title {
+    font-weight: 700;
+    font-size: 1.6em;
+    margin-top: 25px;
+    margin-bottom: 12px;
+    border-bottom: 2px dotted #a38f54;
+    padding-bottom: 4px;
+}
+
+/* Заметки с цветом */
+.note-color-1 {
+    color: #a36800;
+}
+
+.note-color-2 {
+    color: #00663e;
+}
+
+/* Классы для стилизации текста */
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+/* Выравнивание заголовков глав */
+.chapter-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.4em;
+    margin: 18px 0 6px 0;
+    color: #665b3a;
+}
+
+/* Названия глав */
+.chapter-name {
+    color: #3e3e3e;
+}
+
+/* Ссылка "Вернуться в начало" */
+.back-link {
+    text-align: center;
+    color: #436b81;
+    cursor: pointer;
+    border: 1px solid #436b81;
+    padding: 6px 20px;
+    border-radius: 5px;
+    width: max-content;
+    margin: 30px auto 0 auto;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.back-link:hover {
+    background-color: #436b81;
+    color: #fff;
+}
+
+/* Добавление рамок и фон для декоративных элементов */
+.container p {
+    margin-bottom: 14px;
+    line-height: 1.6;
+}
